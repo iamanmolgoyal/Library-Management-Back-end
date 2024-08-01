@@ -66,19 +66,19 @@ const publicationController = require('./controllers/publicationController')
 
 //Book
 app.post('/registerBook',bookController.registerBook);
-app.post('/getBook',bookController.getBook);
+app.get('/getBook',bookController.getBook);
 app.post('/updateBook/:_id',bookController.updateBook);
 app.post('/deleteBook/:_id',bookController.deleteBook);
 
 //Author
 app.post('/registerAuthor',authorController.registerAuthor);
-app.post('/getAuthor',authorController.getAuthor);
+app.get('/getAuthor',authorController.getAuthor);
 app.post('/updateAuthor/:_id',authorController.updateAuthor);
 app.post('/deleteAuthor/:_id',authorController.deleteAuthor);
 
 //Publication
 app.post('/registerPub',publicationController.registerPub);
-app.post('/getPub',publicationController.getPub);
+app.get('/getPub',publicationController.getPub);
 app.post('/updatePub/:_id',publicationController.updatePub);
 app.post('/deletePub/:_id',publicationController.deletePub);
 
