@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 const username ='iamanmolgoyal';     //for making dynamic url here variables are declared and backticks(``) are used in url
-const password = 'ANMOLmongo24';
+const password = '**********';
 
 const url = `mongodb+srv://${username}:${password}@cluster0.abgr3jn.mongodb.net/BackEnd?retryWrites=true&w=majority&appName=Cluster0`
 
